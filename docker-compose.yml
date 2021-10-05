@@ -1,0 +1,8 @@
+services:
+  php:
+    image: ulsmith/alpine-apache-php7
+    volumes:
+      - ./:/app/public
+    ports:
+      - "9191:80"
+    entrypoint: ["php", "/app/public/index.php"]
