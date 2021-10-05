@@ -1,4 +1,4 @@
 # rtech-coding-test
  
-Clone the repo and run the below command
+Clone the repo and run the command
 ```docker-compose run php```
